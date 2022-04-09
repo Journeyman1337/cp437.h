@@ -341,4 +341,3 @@ const wchar_t const CP437_UNICODE_LOOKUP_TABLE[256] =
 #ifdef __cplusplus
 }
 #endif
-#endif
