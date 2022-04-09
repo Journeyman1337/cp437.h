@@ -36,8 +36,8 @@
         #include <cp437.h>
         
     Now, you can include this header in any other translation unit, and have access to the wchar_t array 
-	CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This header also 
-	includes macros for each cp437 glyph to quickly get the ascii code.
+    CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This header also 
+    includes macros for each cp437 glyph to quickly get the ascii code.
 */
 
 #ifndef CP437_H
