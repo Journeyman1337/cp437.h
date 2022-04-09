@@ -1,41 +1,41 @@
 /*
     Created by Daniel Valcour (Journeyman-dev)
     
-	This is free and unencumbered software released into the public domain.
+    This is free and unencumbered software released into the public domain.
 
-	Anyone is free to copy, modify, publish, use, compile, sell, or
-	distribute this software, either in source code form or as a compiled
-	binary, for any purpose, commercial or non-commercial, and by any
-	means.
+    Anyone is free to copy, modify, publish, use, compile, sell, or
+    distribute this software, either in source code form or as a compiled
+    binary, for any purpose, commercial or non-commercial, and by any
+    means.
 
-	In jurisdictions that recognize copyright laws, the author or authors
-	of this software dedicate any and all copyright interest in the
-	software to the public domain. We make this dedication for the benefit
-	of the public at large and to the detriment of our heirs and
-	successors. We intend this dedication to be an overt act of
-	relinquishment in perpetuity of all present and future rights to this
-	software under copyright law.
+    In jurisdictions that recognize copyright laws, the author or authors
+    of this software dedicate any and all copyright interest in the
+    software to the public domain. We make this dedication for the benefit
+    of the public at large and to the detriment of our heirs and
+    successors. We intend this dedication to be an overt act of
+    relinquishment in perpetuity of all present and future rights to this
+    software under copyright law.
 
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-	MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-	IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-	OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-	ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-	OTHER DEALINGS IN THE SOFTWARE.
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+    OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+    ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+    OTHER DEALINGS IN THE SOFTWARE.
 
-	For more information, please refer to <https://unlicense.org>
+    For more information, please refer to <https://unlicense.org>
 */
 
 /*
-	HOW TO USE:
-	
-	Include this file in one translation unit of your project after defining the implement macro like so:
-	
-		#define CP437_IMPLEMENTATION
-		#include <cp437.h>
-		
-	Now, you can include this header in any other translation unit, and have access to the wchar_t array CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This header also includes macros for each cp437 glyph to quickly get the ascii code.
+    HOW TO USE:
+    
+    Include this file in one translation unit of your project after defining the implement macro like so:
+    
+        #define CP437_IMPLEMENTATION
+        #include <cp437.h>
+        
+    Now, you can include this header in any other translation unit, and have access to the wchar_t array CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This header also includes macros for each cp437 glyph to quickly get the ascii code.
 */
 
 #ifndef CP437_H
