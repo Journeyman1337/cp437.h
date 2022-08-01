@@ -33,12 +33,12 @@
     HOW TO SETUP:
     The cp437.h library can be included in your project in one of two different ways:
         1. Copy and paste the cp437.h file directly into your source tree.
-        2. Clone the GitHub as a git submodule to your project's repository, and use the roguelike.h.
+        2. Clone the GitHub as a git submodule to your project's repository.
           - In bash console from the root directory of your project's repository:
                 git submodule add https://github.com/Journeyman-dev/cp437.h
                 git submodule update -init
           - In your project's top level CMakeLists.txt:
-                add_submodule(cp437.h)
+                add_subdirectory(cp437.h)
                 target_add_link_libraries(YOUR_TARGET_NAME PUBLIC cpfts)
     
     Include this file in one .c or .cpp within your project after defining the implemention macro like so:
