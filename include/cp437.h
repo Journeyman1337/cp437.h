@@ -36,7 +36,7 @@
         2. Clone the GitHub as a git submodule to your project's repository.
           - In bash console from the root directory of your project's repository:
                 git submodule add https://github.com/Journeyman-dev/cp437.h
-                git submodule update -init
+                git submodule update --init
           - In your project's top level CMakeLists.txt:
                 add_subdirectory(cp437.h)
                 target_add_link_libraries(YOUR_TARGET_NAME PUBLIC cpfts)
