@@ -38,7 +38,7 @@
                 git submodule add https://github.com/Journeyman-dev/cp437.h
                 git submodule update -init
           - In your project's top level CMakeLists.txt:
-                add_submodule(roguelike.h)
+                add_submodule(cp437.h)
                 target_add_link_libraries(YOUR_TARGET_NAME PUBLIC cpfts)
     
     Include this file in one .c or .cpp within your project after defining the implemention macro like so:
