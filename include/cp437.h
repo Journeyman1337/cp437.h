@@ -33,7 +33,7 @@
     The source for this library can be found on GitHub:
     https://github.com/Journeyman-dev/cp437.h
 
-    HOW TO SETUP:
+    HOW TO SETUP
     The cp437.h library can be included in your project in one of two different ways:
         - Copy and paste the cp437.h file directly into your source tree.
         - Clone the GitHub as a git submodule to your project's repository.
@@ -45,14 +45,14 @@
                 target_add_link_libraries(YOUR_TARGET_NAME PUBLIC cpfts)
 
     Include this file in one .c or .cpp within your project after defining the implemention macro
-   like so:
+    like so:
 
         #define CP437_IMPLEMENTATION
         #include <cp437.h>
 
-    Now, you can include this header in any other translation unit, and have access to the wchar_t
-   array CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This
-   header also includes macros for each codepage 437 glyph to quickly get the ascii code.
+     Now, you can include this header in any other translation unit, and have access to the wchar_t
+     array CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This
+     header also includes macros for each codepage 437 glyph to quickly get the ascii code.
 */
 
 #ifndef CP437_H
