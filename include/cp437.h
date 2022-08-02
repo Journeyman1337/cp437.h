@@ -29,6 +29,9 @@
 
 /*
     cp437.h version 1.0
+    MIT licensed codepage 437 lookup table library
+    The source for this library can be found on GitHub:
+    https://github.com/Journeyman-dev/cp437.h
 
     HOW TO SETUP:
     The cp437.h library can be included in your project in one of two different ways:
