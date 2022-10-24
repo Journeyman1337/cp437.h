@@ -28,7 +28,7 @@
 */
 
 /*
-    cp437.h version 1.0
+    cp437.h version 1.1
     MIT licensed codepage 437 lookup table library
     The source for this library can be found on GitHub:
     https://github.com/Journeyman-dev/cp437.h
@@ -53,6 +53,11 @@
      Now, you can include this header in any other translation unit, and have access to the wchar_t
      array CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This
      header also includes macros for each codepage 437 glyph to quickly get the ascii code.
+   CHANGELOG
+   - Version 1.1
+       Changed the format of the table so it is easier to compare to libtcod.
+   - Version 1.0
+       Initial Release
 */
 
 #ifndef CP437_H
