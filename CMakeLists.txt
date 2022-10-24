@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
 PROJECT(cpfts
-    VERSION 1.0
+    VERSION 1.1
     DESCRIPTION "A header only codepage 437 unicode lookup table."
     LANGUAGES C
 )
