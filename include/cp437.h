@@ -54,10 +54,12 @@
      array CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This
      header also includes macros for each codepage 437 glyph to quickly get the ascii code.
    CHANGELOG
+   - Version 1.1.1
+       Fixed several invalid unicode characters.
    - Version 1.1
        Changed the format of the table so it is easier to compare to libtcod.
    - Version 1.0
-       Initial Release
+       Initial release.
 */
 
 #ifndef CP437_H
