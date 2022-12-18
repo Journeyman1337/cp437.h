@@ -40,7 +40,7 @@ Information about how to use this library in your project is included in comment
 Want to try the example project? You can set it up easily using bash console.
 
     git clone https://github.com/Journeyman-dev/cp437.h
-    cd cp437.h -D CP_BUILD_EXAMPLE=ON
-    cmake -S . -B ./build/
+    cd cp437.h
+    cmake -S . -B ./build/ -D CP_BUILD_EXAMPLE=ON
     cmake --build ./build/
 
