@@ -53,7 +53,7 @@
                         GIT_TAG        v1.2.0 # replace with the version of the library that you want
                         FIND_PACKAGE_ARGS
                 )
-                set(RLH_BUILD_EXAMPLE OFF) # set this to ON if you want to build the example target
+                set(CP_BUILD_EXAMPLE OFF) # set this to ON if you want to build the example target
                 FetchContent_MakeAvailable(cp)
           2. Link it with the CMake target of your project:
                 target_link_libraries(YOUR_TARGET_NAME PRIVATE cp::cp)
