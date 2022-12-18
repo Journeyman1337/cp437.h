@@ -35,6 +35,8 @@ SPDX-License-Identifier: Unlicense
 
 This is tiny a header only library which contains a cp437 ascii to unicode lookup table. This library is released to the public domain.
 
+Information about how to use this library in your project is included in comments at the top of the file [cp437.h](include/cp/cp437.h).
+
 Want to try the example project? You can set it up easily using bash console.
 
     git clone https://github.com/Journeyman-dev/cp437.h
