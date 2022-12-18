@@ -41,6 +41,7 @@
                 git submodule add https://github.com/Journeyman-dev/cp437.h
                 git submodule update --init
           2. In your project's top level CMakeLists.txt:
+                set(CP_BUILD_EXAMPLE OFF) # set this to ON if you want to build the example target
                 add_subdirectory(cp437.h)
           3. Link it with the CMake target of your project:
                target_link_libraries(YOUR_TARGET_NAME PRIVATE cp::cp)
