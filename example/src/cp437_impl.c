@@ -1,11 +1,9 @@
-<!--
-SPDX-FileCopyrightText: 2022 Daniel Aimé Valcour <fosssweeper@gmail.com>
+// SPDX-FileCopyrightText: 2022 Daniel Aimé Valcour <fosssweeper@gmail.com>
+//
+// SPDX-License-Identifier: Unlicense
 
-SPDX-License-Identifier: Unlicense
--->
-
-<!--
-    Created by Daniel Valcour
+/*
+    Created by Daniel Aimé Valcour
 
     This is free and unencumbered software released into the public domain.
     Anyone is free to copy, modify, publish, use, compile, sell, or
@@ -27,20 +25,7 @@ SPDX-License-Identifier: Unlicense
     ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     OTHER DEALINGS IN THE SOFTWARE.
     For more information, please refer to <https://unlicense.org>
--->
+*/
 
-[![REUSE status](https://api.reuse.software/badge/git.fsfe.org/reuse/api)](https://api.reuse.software/info/git.fsfe.org/reuse/api)
-
-# cp437.h
-
-This is tiny a header only library which contains a cp437 ascii to unicode lookup table. This library is released to the public domain.
-
-Information about how to use this library in your project is included in comments at the top of the file [cp437.h](include/cp/cp437.h).
-
-Want to try the example project? You can set it up easily using bash console.
-
-    git clone https://github.com/Journeyman-dev/cp437.h
-    cd cp437.h -D CP_BUILD_EXAMPLE=ON
-    cmake -S . -B ./build/
-    cmake --build ./build/
-
+#define CP437_IMPLEMENTATION
+#include <cp/cp437.h>
