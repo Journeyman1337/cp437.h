@@ -34,7 +34,7 @@
     https://github.com/Journeyman-dev/cp437.h
 
     HOW TO SETUP
-    The cp437.h library can be included in your project in one of two different ways:
+    The cp437.h library can be included in your project in one of three different ways:
         - Copy and paste the cp437.h file directly into your source tree.
         - Clone the GitHub as a git submodule to your project's repository.
           1. In bash console from the root directory of your project's repository:
