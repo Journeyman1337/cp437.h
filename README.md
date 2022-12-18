@@ -29,6 +29,8 @@ SPDX-License-Identifier: Unlicense
     For more information, please refer to <https://unlicense.org>
 -->
 
+[![REUSE status](https://api.reuse.software/badge/git.fsfe.org/reuse/api)](https://api.reuse.software/info/git.fsfe.org/reuse/api)
+
 # cp437.h
 
 This is tiny a header only library which contains a cp437 ascii to unicode lookup table. This library is released to the public domain.
