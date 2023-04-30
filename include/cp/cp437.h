@@ -69,6 +69,8 @@
      array CP_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every codepage 437 glyph. This
      header also includes macros for each codepage 437 glyph to quickly get the unicode wchar_t value.
    CHANGELOG
+   - Version 1.2.1
+       - Fixed typo in unicode lookup table value.
    - Version 1.2
        - Change "Pipe" character to "Broken Bar" to follow the IBM standard.
        - Simplified the names of the macros to make glyphs easier to type by name.
@@ -354,7 +356,7 @@ extern const wchar_t const CP_UNICODE_LOOKUP_TABLE[CP_CODEPAGE_SIZE];
 #    define CP437_IMPLEMENTED
 
   const wchar_t const CP_UNICODE_LOOKUP_TABLE[CP_CODEPAGE_SIZE] = {
-    0x0020, 0x263A, 0x263B, 0x2665, 0x2666, 0x2663, 0x2660, 0x2022-2023,
+    0x0020, 0x263A, 0x263B, 0x2665, 0x2666, 0x2663, 0x2660, 0x2022,
     0x25D8, 0x25CB, 0x25D9, 0x2642, 0x2640, 0x266A, 0x266B, 0x263C,
     0x25BA, 0x25C4, 0x2195, 0x203C, 0x00B6, 0x00A7, 0x25AC, 0x21A8,
     0x2191, 0x2193, 0x2192, 0x2190, 0x221F, 0x2194, 0x25B2, 0x25BC,
