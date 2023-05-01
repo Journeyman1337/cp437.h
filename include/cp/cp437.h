@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2022 Daniel Aimé Valcour <fosssweeper@gmail.com>
+// SPDX-FileCopyrightText: 2022-2023 Daniel Aimé Valcour <fosssweeper@gmail.com>
 //
 // SPDX-License-Identifier: MIT
 
@@ -33,13 +33,14 @@
     https://github.com/Journeyman-dev/cp437.h
 
     HOW TO SETUP
-    The cp437.h library can be included in your project in one of two different ways:
+    The cp437.h library can be included in your project in one of three different ways:
         - Copy and paste the cp437.h file directly into your source tree.
         - Clone the GitHub as a git submodule to your project's repository.
           1. In bash console from the root directory of your project's repository:
                 git submodule add https://github.com/Journeyman-dev/cp437.h
                 git submodule update --init
           2. In your project's top level CMakeLists.txt:
+                set(CP_BUILD_EXAMPLE OFF) # set this to ON if you want to build the example target
                 add_subdirectory(cp437.h)
           3. Link it with the CMake target of your project:
                target_link_libraries(YOUR_TARGET_NAME PRIVATE cp::cp)

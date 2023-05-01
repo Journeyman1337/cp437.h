@@ -1,10 +1,10 @@
-# SPDX-FileCopyrightText: 2022 Daniel Aimé Valcour <fosssweeper@gmail.com>
+# SPDX-FileCopyrightText: 2022-2023 Daniel Aimé Valcour <fosssweeper@gmail.com>
 #
 # SPDX-License-Identifier: MIT
 
 cmake_minimum_required(VERSION 3.19)
 PROJECT(cp
-    VERSION 1.2
+    VERSION 1.2.1
     DESCRIPTION "A header only code page 437 unicode lookup table"
     LANGUAGES C
 )
