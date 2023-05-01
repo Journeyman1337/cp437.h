@@ -72,7 +72,6 @@
        - Imrproved the names of the macros to be more clear.
        - Replaced the unicode lookup table with a wide character string of all codepage 437 characters 
        in order.
-       - Added an 8 bit grayscale bitmap data array of a basic codepage 437 spritesheet.
        - Fixed a lot of mistakes.
        - Changed license to MIT.
    - Version 1.2.1
