@@ -27,7 +27,7 @@
 */
 
 /*
-    cp437.h v1.2.0
+    cp437.h v2.0.0
     MIT licensed codepage 437 lookup table library
     The source for this library can be found on GitHub:
     https://github.com/Journeyman-dev/cp437.h
@@ -49,7 +49,7 @@
                 FetchContent_Declare(
                         cp
                         GIT_REPOSITORY https://github.com/Journeyman-dev/cp437.h
-                        GIT_TAG        v1.2.0 # replace with the version of the library that you want
+                        GIT_TAG        v2.0.0 # replace with the version of the library that you want
                         FIND_PACKAGE_ARGS
                 )
                 set(CP_BUILD_EXAMPLE OFF) # set this to ON if you want to build the example target
@@ -67,6 +67,14 @@
      array CP_WCHAR_LOOKUP_TABLE, which contains the wchar_t values for every codepage 437 glyph. This
      header also includes macros for each codepage 437 glyph to quickly get the unicode wchar_t value.
    CHANGELOG
+   - Version 2.0
+       - Used wchar_t literals instead of hex values to help prevent mistakes.
+       - Imrproved the names of the macros to be more clear.
+       - Replaced the unicode lookup table with a wide character string of all codepage 437 characters 
+       in order.
+       - Added an 8 bit grayscale bitmap data array of a basic codepage 437 spritesheet.
+       - Fixed a lot of mistakes.
+       - Changed license to MIT.
    - Version 1.2.1
        - Fixed typo in unicode lookup table value.
    - Version 1.2
