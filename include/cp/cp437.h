@@ -67,11 +67,13 @@
      array CP_WCHAR_LOOKUP_TABLE, which contains the wchar_t values for every codepage 437 glyph. This
      header also includes macros for each codepage 437 glyph to quickly get the unicode wchar_t value.
    CHANGELOG
+   - Version 1.2.1
+       - Fixed typo in unicode lookup table value.
    - Version 1.2
-       - Change "Pipe" character to "Broken Bar" to follow the IBM standard.
+       - Changed "Pipe" character to "Broken Bar" to follow the IBM standard.
        - Simplified the names of the macros to make glyphs easier to type by name.
    - Version 1.1
-       - Change the format of the table so it is easier to compare to libtcod.
+       - Changed the format of the table so it is easier to compare to libtcod.
    - Version 1.0
        - Initial release.
 */
