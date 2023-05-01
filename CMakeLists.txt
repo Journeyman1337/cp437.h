@@ -4,7 +4,7 @@
 
 cmake_minimum_required(VERSION 3.19)
 PROJECT(cp
-    VERSION 1.2.1
+    VERSION 2.0.0
     DESCRIPTION "A header only code page 437 unicode lookup table"
     LANGUAGES C
 )
