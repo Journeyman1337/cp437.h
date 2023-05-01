@@ -33,6 +33,23 @@ SPDX-License-Identifier: Unlicense
 
 # cp437.h
 
+    ☺☻♥♦♣♠•◘○◙♂♀♀♪♫☼
+    ►◄↕‼¶§▬↨↑↓→←∟↔▲▼
+     !"#$%&'()*+,-./
+    0123456789:;<=>?
+    @ABCDEFGHIJKLMNO
+    PQRSTUVWXYZ[\]^_
+    `abcdefghijklmno
+    pqrstuvwxyz{|}~⌂
+    ÇüéâäàåçêëèïîìÄÅ
+    ÉæÆôöòûùÿÖÜ¢£¥₧ƒ
+    áíóúñÑªº¿⌐¬½¼¡«»
+    ░▒▓│┤╡╢╖╕╣║╗╝╜╛┐
+    └┴┬├─┼╞╟╚╔╩╦╠═╬╧
+    ╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀
+    αßΓπΣσµτΦΘΩδ∞φε∩
+    ≡±≥≤⌠⌡÷≈°∙·√ⁿ²■
+
 This is tiny a header only library which contains a cp437 ascii to unicode lookup table. This library is released to the public domain.
 
 Information about how to use this library in your project is included in comments at the top of the file [cp437.h](include/cp/cp437.h).
