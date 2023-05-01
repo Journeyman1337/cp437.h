@@ -64,8 +64,8 @@
         #include <cp/cp437.h>
 
      Now, you can include this header in any other translation unit, and have access to the wchar_t
-     array CP437_UNICODE_LOOKUP_TABLE, which contains the unicode codes of every cp437 glyph. This
-     header also includes macros for each codepage 437 glyph to quickly get the ascii code.
+     array CP_WCHAR_LOOKUP_TABLE, which contains the wchar_t values for every codepage 437 glyph. This
+     header also includes macros for each codepage 437 glyph to quickly get the unicode wchar_t value.
    CHANGELOG
    - Version 1.2
        - Change "Pipe" character to "Broken Bar" to follow the IBM standard.
