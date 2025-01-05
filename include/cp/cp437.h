@@ -522,7 +522,7 @@ extern const wchar_t* const CP_WCHAR_LOOKUP_TABLE;
 // "╤"
 #define CP_THICK_HORIZONTAL_THIN_DOWN 209
 // "╥"
-#define CP_THIN_HORIZONTAL_THIN_DOWN 210
+#define CP_THIN_HORIZONTAL_THICK_DOWN 210
 // "╙"
 #define CP_THIN_RIGHT_THICK_UP 211
 // "╘"
