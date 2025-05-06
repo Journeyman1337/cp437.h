@@ -58,7 +58,7 @@
           2. Link it with the CMake target of your project:
                 target_link_libraries(YOUR_TARGET_NAME PRIVATE cp::cp)
 
-    Include this file in one .c or .cpp within your project after defining the implemention macro
+    Include this file in one .c or .cpp within your project after defining the implementation macro
     like so:
 
         #define CP437_IMPLEMENTATION
